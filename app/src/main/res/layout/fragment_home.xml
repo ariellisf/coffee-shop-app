@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_title_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pink_500"
+            android:fontFamily="@font/caveat_bold"
+            android:textAlignment="center"
+            android:text="Sobre o Café"
+            android:textFontWeight="700"
+            android:textSize="32sp"
+            />
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono"
+            android:text="A Cafeteria da Mamãe foi fundada pela incrível mamãe Ivone e é inspirada nas melhores cafeterias europeias.\n\nA cafeteria da mamãe traz um ambiente sofisticado, acolhedor e aconchegante para que todos os clientes aproveitem como se estivesse tomando um cafézinho no chamego do colo de mãe."
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image_home"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textAlignment="center"
+            android:src="@drawable/coffee_img"
+            android:layout_marginTop="32dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

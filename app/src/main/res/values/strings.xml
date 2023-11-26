@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Cafeteria da Mamae</string>
+    <string name="app_name">Cafeteria da Mamãe</string>
+    <string name="menu_home">A Cafeteria</string>
+    <string name="nav_header_title">Cafeteria da Mamãe</string>
+    <string name="nav_header_subtitle">Rua dos cafés, 4949</string>
+
 </resources>

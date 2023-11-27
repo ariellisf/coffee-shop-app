@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imageViewCoffee"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:text="Café Especial"
+            android:textColor="@color/brown_500"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitle"
+            android:layout_toLeftOf="@+id/imageViewCoffee"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_mono"
+            android:text="Um café de alta qualidade, delicioso e aromático."
+            android:textColor="@color/brown_500"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textViewDescription"
+            android:layout_toLeftOf="@+id/imageViewCoffee"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/roboto_mono_bold"
+            android:text="R$ 15,00"
+            android:textColor="@color/brown_500"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+            <ImageView
+                android:id="@+id/imageViewCoffee"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/americano"
+                android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

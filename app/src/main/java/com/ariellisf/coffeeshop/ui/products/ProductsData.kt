@@ -37,19 +37,19 @@ class ProductsData {
                 Product(
                     "Capuccino",
                     "Bebida com canela feita de doses iguais de café, leite e espuma",
-                    "R$ 9,90",
+                    "R$ 12,90",
                     "capuccino"
                 ),
                 Product(
                     "Macchiato",
                     "Café expresso misturado com um pouco de leite quente e espuma",
-                    "R$ 9,90",
+                    "R$ 12,50",
                     "macchiato"
                 ),
                 Product(
                     "Mocaccino",
                     "Café expresso com calda de chocolate, pouco leite e espuma",
-                    "R$ 9,90",
+                    "R$ 12,50",
                     "mocaccino"
                 ),
                 Product(
@@ -61,25 +61,25 @@ class ProductsData {
                 Product(
                     "Cubano",
                     "Drink gelado de café expresso com rum, creme de leite e hortelã",
-                    "R$ 9,90",
+                    "R$ 15,90",
                     "cubano"
                 ),
                 Product(
                     "Havaiano",
                     "Bebida adocicada preparada com café e leite de coco",
-                    "R$ 9,90",
+                    "R$ 15,90",
                     "havaiano"
                 ),
                 Product(
                     "Árabe",
                     "Bebida preparada com grãos de café árabe e especiarias",
-                    "R$ 9,90",
+                    "R$ 15,90",
                     "arabe"
                 ),
                 Product(
                     "Irlandês",
                     "Bebida a base de café, uísque irlandês, açúcar e chantilly",
-                    "R$ 9,90",
+                    "R$ 15,90",
                     "irlandes"
                 ),
             )

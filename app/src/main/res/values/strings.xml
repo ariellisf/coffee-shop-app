@@ -3,5 +3,5 @@
     <string name="menu_home">A Cafeteria</string>
     <string name="nav_header_title">Cafeteria da Mamãe</string>
     <string name="nav_header_subtitle">Rua dos cafés, 4949</string>
-
+    <string name="menu_about">Sobre</string>
 </resources>
